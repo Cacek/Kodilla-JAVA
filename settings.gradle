@@ -1,3 +1,4 @@
 include 'kodilla-test'
-include 'kodilla-com.kodilla.testing'
+include 'kodilla-testing'
+include 'kodilla-testing'
 
