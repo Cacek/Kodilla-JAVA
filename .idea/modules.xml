@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-com.kodilla.testing/kodilla-com.kodilla.testing.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-com.kodilla.testing/kodilla-com.kodilla.testing.iml" group="kodilla-com.kodilla.testing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kodilla-course.iml" filepath="$PROJECT_DIR$/.idea/kodilla-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course_main.iml" group="kodilla-course" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-course_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-course_test.iml" group="kodilla-course" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test.iml" group="kodilla-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test_main.iml" group="kodilla-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-test/kodilla-test_test.iml" group="kodilla-test" />
+    </modules>
+  </component>
+</project>
