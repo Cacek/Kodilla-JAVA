@@ -9,8 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/kodilla-com.kodilla.testing" />
             <option value="$PROJECT_DIR$/kodilla-test" />
+            <option value="$PROJECT_DIR$/kodilla-testing" />
           </set>
         </option>
       </GradleProjectSettings>

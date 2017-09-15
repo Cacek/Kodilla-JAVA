@@ -2,6 +2,8 @@ package com.kodilla.testing.collection;
 
 import org.junit.*;
 
+import java.util.ArrayList;
+
 public class CollectionTestSuite {
     @Before
     public void before(){
@@ -22,6 +24,11 @@ public class CollectionTestSuite {
     @Test
     public void testOddNumbersExterminatorEmptyList() {
         //Given
+        OddNumbersExterminator evenArray = new OddNumbersExterminator();
+        ArrayList<Integer> empty = new ArrayList<Integer>();
+        //When
+        evenArray.exterminate(empty);
+        //Then
 
     }
 
