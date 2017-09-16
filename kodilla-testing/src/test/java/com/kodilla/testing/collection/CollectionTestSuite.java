@@ -27,12 +27,24 @@ public class CollectionTestSuite {
         OddNumbersExterminator evenArray = new OddNumbersExterminator();
         ArrayList<Integer> empty = new ArrayList<Integer>();
         //When
-        evenArray.exterminate(empty);
+        ArrayList<Integer> result = evenArray.exterminate(empty);
         //Then
+        Assert.assertEquals(0, result.size());
 
     }
-
+    @Test
     public void testOddNumbersExterminatorNormalList() {
-
+        //Given
+        OddNumbersExterminator evenArray = new OddNumbersExterminator();
+        ArrayList<Integer> input = new ArrayList<Integer>();
+        input.add(1);
+        input.add(2);
+        input.add(4);
+        input.add(3);
+        input.add(9);
+        //When
+        ArrayList<Integer> result = evenArray.exterminate(input);
+        //Then
+        Assert.assertEquals(2, result.size());
     }
 }
