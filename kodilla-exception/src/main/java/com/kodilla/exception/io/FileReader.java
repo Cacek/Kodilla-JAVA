@@ -18,6 +18,7 @@ public class FileReader {
 
             Stream<String> fileLines = Files.lines(path);
         } catch (IOException e) {
+
         }
     }
 }
