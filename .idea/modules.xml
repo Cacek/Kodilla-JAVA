@@ -14,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing.iml" group="kodilla-testing" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing_main.iml" group="kodilla-testing" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-testing/kodilla-testing_test.iml" group="kodilla-testing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test11/test11.iml" filepath="$PROJECT_DIR$/.idea/modules/test11/test11.iml" group="test11" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test2/test2.iml" filepath="$PROJECT_DIR$/.idea/modules/test2/test2.iml" group="test2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test3/test3.iml" filepath="$PROJECT_DIR$/.idea/modules/test3/test3.iml" group="test3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test9/test9.iml" filepath="$PROJECT_DIR$/.idea/modules/test9/test9.iml" group="test9" />
     </modules>
   </component>
 </project>

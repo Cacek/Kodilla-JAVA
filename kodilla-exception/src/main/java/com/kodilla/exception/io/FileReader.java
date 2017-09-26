@@ -12,13 +12,15 @@ public class FileReader {
 
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("file/names.txt").getFile());
-        Path path = Paths.get(file.getPath());
 
-        try {
+        try  (Stream<String> fileLines = Files.lines(Paths.get(file.getPath()))) {
 
-            Stream<String> fileLines = Files.lines(path);
+            fileLines.forEach(System.out::println);
+
         } catch (IOException e) {
-
+            System.out.println("cos poszlo nie tak:" + e);
+        } finally {
+            System.out.println("i tak sie uruchomie");
         }
     }
 }
