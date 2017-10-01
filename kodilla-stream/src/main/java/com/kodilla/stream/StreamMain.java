@@ -5,6 +5,7 @@ import com.kodilla.stream.forumuser.ForumUser;
 
 import java.time.LocalDate;
 import java.util.Map;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class StreamMain {
@@ -20,5 +21,6 @@ public class StreamMain {
         theUserList.entrySet().stream()
                 .map(entry -> entry.getKey() + ": " + entry.getValue())
                 .forEach(System.out::println);
+
     }
 }
