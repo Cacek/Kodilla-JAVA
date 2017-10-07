@@ -9,8 +9,9 @@ public class Country {
         this.bigDecimal = bigDecimal;
     }
 
-    public void getPeopleQuantity() {
-         System.out.println(bigDecimal);
+    public BigDecimal getPeopleQuantity() {
+        return bigDecimal;
     }
+
 }
 
