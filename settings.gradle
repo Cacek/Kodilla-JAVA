@@ -5,4 +5,6 @@ include 'test2'
 include 'test3'
 include 'test9'
 include 'test11'
+include 'kodilla-good-patterns'
+include 'kodilla-good-patterns'
 
