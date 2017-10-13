@@ -1,9 +1,22 @@
 package com.kodilla.good.patterns.challenges;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 class MovieStore {
+
+    public static void main(String[] args) {
+
+        MovieStore movieStore = new MovieStore();
+        String s = movieStore.getMovies().entrySet().stream()
+                .map(entry -> entry.getValue())
+                .flatMap(list -> list.stream())
+                .collect(Collectors.joining("!"));
+        System.out.println(s);
+    }
 
     public Map<String, List<String>> getMovies() {
 
@@ -25,19 +38,5 @@ class MovieStore {
         booksTitlesWithTranslations.put("FL", flashTranslations);
 
         return booksTitlesWithTranslations;
-    }
-
-    public static void main(String[] args) {
-
-        MovieStore movieStore = new MovieStore();
-        Set<Map.Entry<String, List<String>>> map = movieStore.getMovies().entrySet();
-        System.out.println(map);
-        map.stream()
-
-                //.collect(Collectors.joining("!"));
-                .forEach(System.out::println);
-
-
-
     }
 }

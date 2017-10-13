@@ -152,9 +152,10 @@ public class BoardTestSuite {
                 .filter(inProgressTasks::contains)
                 .flatMap(tl -> tl.getTasks().stream())
                 .map(t -> t.getCreated())
-                .mapToLong(d -> d.until(LocalDate.now(), ChronoUnit.DAYS))
+                //.mapToLong(d -> d.until(LocalDate.now(), ChronoUnit.DAYS))
+                .mapToLong(d -> LocalDate.now().toEpochDay() - d.toEpochDay())
                 .average();
-        System.out.println(avg);
+        System.out.println(avg.getAsDouble());
 
         //Then
         Assert.assertEquals(10, avg.getAsDouble(), 0);

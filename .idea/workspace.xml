@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61ebf4f-3523-44d1-886e-91bd26f30a29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -57,35 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BoardTestSuite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookTestSuite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/book/BookTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MovieStore.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +85,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\gradle-4.1" />
+        <entry key="$PROJECT_DIR$" value="C:\Program Files (x86)\gradle-4.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -1065,11 +1040,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="9039036489046" />
+        <entry key="$PROJECT_DIR$" value="9038468694050" />
         <entry key="$PROJECT_DIR$/build.gradle" value="287589585" />
         <entry key="$PROJECT_DIR$/kodilla-exception/build.gradle" value="1971620415" />
         <entry key="$PROJECT_DIR$/kodilla-good-patterns/build.gradle" value="1971620415" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="298195882" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2445218764" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1147,75 +1122,75 @@
               <option name="name" value="kodilla-course" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/gradle-4.1/lib/ant-1.9.6.jar" />
-                  <option value="C:/gradle-4.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-base-services-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-base-services-groovy-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-cli-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-core-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-docs-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-installation-beacon-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-jvm-services-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-kotlin-dsl-0.10.3.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-kotlin-dsl-compiler-plugin-0.10.3.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-kotlin-dsl-tooling-builders-0.10.3.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-kotlin-dsl-tooling-models-0.10.3.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-launcher-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-logging-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-messaging-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-model-core-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-model-groovy-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-native-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-process-services-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-resources-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-runtime-api-info-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-tooling-api-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/gradle-wrapper-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/groovy-all-2.4.11.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-announce-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-antlr-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-build-cache-http-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-build-comparison-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-build-init-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-code-quality-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-composite-builds-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-dependency-management-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-diagnostics-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-ear-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-ide-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-ide-native-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-ide-play-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-ivy-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-jacoco-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-javascript-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-language-groovy-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-language-java-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-language-jvm-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-language-native-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-language-scala-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-maven-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-osgi-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-platform-base-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-platform-jvm-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-platform-native-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-platform-play-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-plugin-development-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-plugin-use-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-plugins-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-publish-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-reporting-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-resources-http-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-resources-s3-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-resources-sftp-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-scala-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-signing-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-test-kit-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-testing-base-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-testing-jvm-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-testing-native-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-tooling-api-builders-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/gradle-workers-4.1.jar" />
-                  <option value="C:/gradle-4.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/ant-1.9.6.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-base-services-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-base-services-groovy-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-cli-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-core-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-docs-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-installation-beacon-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-jvm-services-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-kotlin-dsl-0.10.3.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-kotlin-dsl-compiler-plugin-0.10.3.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-kotlin-dsl-tooling-builders-0.10.3.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-kotlin-dsl-tooling-models-0.10.3.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-launcher-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-logging-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-messaging-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-model-core-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-model-groovy-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-native-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-process-services-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-resources-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-runtime-api-info-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-tooling-api-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/gradle-wrapper-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/groovy-all-2.4.11.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-announce-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-antlr-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-build-cache-http-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-build-comparison-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-build-init-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-code-quality-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-composite-builds-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-dependency-management-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-diagnostics-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-ear-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-ide-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-ide-native-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-ide-play-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-ivy-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-jacoco-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-javascript-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-language-groovy-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-language-java-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-language-jvm-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-language-native-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-language-scala-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-maven-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-osgi-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-platform-base-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-platform-jvm-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-platform-native-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-platform-play-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-plugin-development-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-plugin-use-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-plugins-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-publish-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-reporting-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-resources-http-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-resources-s3-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-resources-sftp-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-scala-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-signing-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-test-kit-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-testing-base-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-testing-jvm-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-testing-native-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-tooling-api-builders-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/gradle-workers-4.1.jar" />
+                  <option value="C:/Program Files (x86)/gradle-4.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1312,7 +1287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1320,13 +1294,19 @@
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1622,15 +1602,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.12 at 22h 26m 37s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.12 at 22h 31m 00s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.12 at 22h 32m 12s.xml">
-      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.13 at 10h 07m 07s.xml">
       <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
     </history-entry>
@@ -1652,36 +1623,45 @@
     <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.13 at 12h 14m 26s.xml">
       <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.13 at 17h 44m 56s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.13 at 17h 48m 46s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListAverageWorkingOnTask - 2017.10.13 at 20h 23m 42s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106752000" />
+    <option name="totallyTimeSpent" value="110348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596153" sideWeight="0.45309168" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.45051414" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32596153" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2960969" sideWeight="0.5462725" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2960969" sideWeight="0.4537275" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32596153" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2798077" sideWeight="0.47014925" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2732167" sideWeight="0.47172236" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1895887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.48971722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1701,8 +1681,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257066" sideWeight="0.4588689" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257066" sideWeight="0.4588689" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27375352" sideWeight="0.4765625" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18701799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1897,7 +1877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,9 +1884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1915,9 +1891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1925,7 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,7 +1919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2063,7 +2034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2071,7 +2041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2079,7 +2048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2087,10 +2055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2098,9 +2062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2108,9 +2069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <marker date="1507881826107" expanded="true" signature="530:537" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2118,14 +2076,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+        <state relative-caret-position="217">
+          <caret line="155" column="32" lean-forward="false" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2134,8 +2091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/MovieStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
