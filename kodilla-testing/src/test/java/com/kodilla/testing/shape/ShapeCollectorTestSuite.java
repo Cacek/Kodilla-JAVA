@@ -33,12 +33,14 @@ public class ShapeCollectorTestSuite {
     public void testRemoveFigure() {
         //Given
         ShapeCollector test = createDummyData();
-
+        Shape toRemove = new Circle();
+        test.addFigure(toRemove);
+        Assert.assertEquals(4, test.getSize());
         //When
-        test.removeFigure(Circle);
+        test.removeFigure(toRemove);
 
         //Then
-        Assert.assertEquals(2, test.getSize());
+        Assert.assertEquals(3, test.getSize());
     }
 
     //test pobieranie figury z kolekcji

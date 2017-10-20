@@ -13,4 +13,6 @@ public class Circle implements Shape {
     public void getField() {
         System.out.println("Pole kola");
     }
+
+
 }
