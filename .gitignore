@@ -1,4 +1,7 @@
 .gradle
+!settings.gradle
+!build.gradle
+.class
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
