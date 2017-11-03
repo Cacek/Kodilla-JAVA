@@ -8,7 +8,7 @@ import java.util.List;
 public class Invoice {
     int id;
     String number;
-    List<Item> items;
+    //List<Item> items;
 
     public Invoice() {
     }
@@ -29,11 +29,9 @@ public class Invoice {
         return number;
     }
 
-    @OneToMany
-    @JoinColumn(name = "ITEM_ID")
-    public List<Item> getItems() {
-        return items;
-    }
+//    public List<Item> getItems() {
+//        return items;
+//    }
 
     public void setId(int id) {
         this.id = id;
@@ -43,8 +41,8 @@ public class Invoice {
         this.number = number;
     }
 
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
+//    public void setItems(List<Item> items) {
+//        this.items = items;
+//    }
 }
 

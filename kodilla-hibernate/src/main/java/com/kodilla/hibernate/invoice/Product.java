@@ -9,7 +9,7 @@ import java.util.List;
 public class Product {
     int id;
     String name;
-    List<Item> items = new ArrayList<>();
+    //List<Item> items = new ArrayList<>();
 
     public Product(String name) {
         this.name = name;
@@ -29,15 +29,15 @@ public class Product {
         return name;
     }
 
-    @OneToMany(
-            targetEntity = Item.class,
-            mappedBy = "product",
-            cascade = CascadeType.ALL,
-            fetch = FetchType.LAZY
-    )
-    public List<Item> getItems() {
-        return items;
-    }
+//    @OneToMany(
+//            targetEntity = Item.class,
+//            mappedBy = "product",
+//            cascade = CascadeType.ALL,
+//            fetch = FetchType.LAZY
+//    )
+//    public List<Item> getItems() {
+//        return items;
+//    }
 
     public void setId(int id) {
         this.id = id;
@@ -47,9 +47,9 @@ public class Product {
         this.name = name;
     }
 
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
+//    public void setItems(List<Item> items) {
+//        this.items = items;
+//    }
 }
 
 

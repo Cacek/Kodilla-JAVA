@@ -12,7 +12,7 @@ public class Item {
     BigDecimal price;
     int quantity;
     BigDecimal value;
-
+    Invoice invoice;
 
     public Item(BigDecimal price, int quantity, BigDecimal value) {
         this.price = price;
@@ -30,42 +30,61 @@ public class Item {
     public int getId() {
         return id;
     }
-    @ManyToOne
-    @JoinColumn(name = "PRODUCT_ID")
-    public Product getProduct() {
-        return product;
-    }
-
-    public BigDecimal getPrice() {
-        return price;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public BigDecimal getValue() {
-        return value;
-    }
-
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @ManyToOne
+//            (
+//        cascade = CascadeType.ALL,
+//        fetch = FetchType.LAZY
+//    )
+
+    @JoinColumn(name = "PRODUCT_ID")
+    public Product getProduct() {
+        return product;
     }
 
     public void setProduct(Product product) {
         this.product = product;
     }
 
+    public BigDecimal getPrice() {
+        return price;
+    }
+
     public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
     }
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
+    public BigDecimal getValue() {
+        return value;
+    }
+
     public void setValue(BigDecimal value) {
         this.value = value;
+    }
+
+    @ManyToOne
+//            (
+//            cascade = CascadeType.ALL,
+//            fetch = FetchType.LAZY
+//    )
+    @JoinColumn(name = "INVOICE_ID")
+    public Invoice getInvoice() {
+        return invoice;
+    }
+
+    public void setInvoice(Invoice invoice) {
+        this.invoice = invoice;
     }
 }
