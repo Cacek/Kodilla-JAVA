@@ -2,11 +2,16 @@ package com.kodilla.hibernate.manytomany;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.groups.ConvertGroup;
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
     private int id;
     private String name;
+    private List<Employee> employees = new ArrayList<>();
 
     public Company() {
     }
@@ -28,6 +33,10 @@ public class Company {
     public String getName() {
         return name;
     }
+    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
+    public List<Employee> getEmployees() {
+        return employees;
+    }
 
     private void setId(int id) {
         this.id = id;
@@ -35,5 +44,9 @@ public class Company {
 
     private void setName(String name) {
         this.name = name;
+    }
+
+    public void setEmployees(List<Employee> employees) {
+        this.employees = employees;
     }
 }
