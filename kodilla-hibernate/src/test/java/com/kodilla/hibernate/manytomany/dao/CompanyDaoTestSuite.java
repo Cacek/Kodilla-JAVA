@@ -66,13 +66,23 @@ public class CompanyDaoTestSuite {
     }
 
     @Test
-    public void testQueries() {
+    public void testNamedQuery() {
 
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
         Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
         List<Employee> employees = employeeDao.findEmployeesByLastname("Smith");
         Assert.assertEquals(1, employees.size());
+
+    }
+    @Test
+    public void testNamedNativeQuery() {
+
+        Company softwareMachine = new Company("Software Machine");
+        Company dataMaesters = new Company("Data Maesters");
+        Company greyMatter = new Company("Grey Matter");
+        List<Company> companies = companyDao.findCompanyByName();
+        Assert.assertEquals(1, companies.size());
 
     }
 }

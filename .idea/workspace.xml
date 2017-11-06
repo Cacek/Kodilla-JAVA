@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b61ebf4f-3523-44d1-886e-91bd26f30a29" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,8 +89,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +98,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyDaoTestSuite.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1509997336222" expanded="true" signature="293:347" ph="SELECT * FRO... COMPANIES" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyDaoTestSuite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+              <caret line="84" column="49" lean-forward="true" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +126,8 @@
       <file leaf-file-name="CompanyDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +138,8 @@
       <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="43" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1683,8 +1697,6 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/TestSuiteInvoiceDao.java" />
@@ -1697,7 +1709,9 @@
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
       </list>
     </option>
   </component>
@@ -1897,7 +1911,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompanyDaoTestSuite.testQueries">
+  <component name="RunManager" selected="JUnit.CompanyDaoTestSuite.testNamedNativeQuery">
+    <configuration name="CompanyDaoTestSuite.testNamedNativeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kodilla-hibernate_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
+      <option name="METHOD_NAME" value="testNamedNativeQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-hibernate" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CompanyDaoTestSuite.testQueries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1978,31 +2017,6 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.hibernate.KodillaHibernateApplication" />
       <module name="kodilla-hibernate_main" />
       <envs />
-    </configuration>
-    <configuration name="TaskDaoTestSuite.testTaskDaoSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.task.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="kodilla-hibernate_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.task.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.task.dao.TaskDaoTestSuite" />
-      <option name="METHOD_NAME" value="testTaskDaoSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-hibernate" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="TestSuiteInvoiceDao.testSaveProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -2124,19 +2138,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.KodillaHibernateApplication" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TaskDaoTestSuite.testTaskDaoSave" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSuiteInvoiceDao.testSaveProduct" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite.testInvoiceDaoSave" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testQueries" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSuiteInvoiceDao.testSaveProduct" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite.testInvoiceDaoSave" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testQueries" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testNamedNativeQuery" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testQueries" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite.testInvoiceDaoSave" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSuiteInvoiceDao.testSaveProduct" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TaskDaoTestSuite.testTaskDaoSave" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testNamedNativeQuery" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CompanyDaoTestSuite.testQueries" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceDaoTestSuite.testInvoiceDaoSave" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSuiteInvoiceDao.testSaveProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -2170,11 +2184,14 @@
       <workItem from="1507827084500" duration="23000" />
       <workItem from="1507827137836" duration="8752000" />
       <workItem from="1509116949629" duration="7865000" />
-      <workItem from="1509400084891" duration="55039000" />
+      <workItem from="1509400084891" duration="59768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="CompanyDaoTestSuite_testNamedNativeQuery - 2017.11.06 at 21h 03m 02s.xml">
+      <configuration name="CompanyDaoTestSuite.testNamedNativeQuery" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CompanyDaoTestSuite_testQueries - 2017.11.05 at 23h 13m 42s.xml">
       <configuration name="CompanyDaoTestSuite.testQueries" configurationId="JUnit" />
     </history-entry>
@@ -2190,9 +2207,6 @@
     <history-entry file="CompanyDaoTestSuite_testQueries - 2017.11.05 at 23h 24m 22s.xml">
       <configuration name="CompanyDaoTestSuite.testQueries" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceDaoTestSuite - 2017.11.03 at 19h 31m 15s.xml">
-      <configuration name="InvoiceDaoTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InvoiceDaoTestSuite - 2017.11.03 at 19h 42m 43s.xml">
       <configuration name="InvoiceDaoTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -2207,7 +2221,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243531000" />
+    <option name="totallyTimeSpent" value="248260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -2229,10 +2243,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25302827" sideWeight="0.5919023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25302827" sideWeight="0.5919023" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.044414535" sideWeight="0.47172236" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44414535" sideWeight="0.47172236" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19215938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2611,16 +2625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/InvoiceDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2708,8 +2712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2718,8 +2722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2728,8 +2732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2739,9 +2743,20 @@
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <caret line="84" column="49" lean-forward="true" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1509997336222" expanded="true" signature="293:347" ph="SELECT * FRO... COMPANIES" />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,12 @@ import javax.validation.groups.ConvertGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedNativeQuery(
+        name = "Company.findCompanyByName",
+        query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE 'gre%' "
+)
+
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
