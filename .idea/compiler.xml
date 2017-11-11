@@ -14,6 +14,8 @@
       <module name="kodilla-jdbc_test" target="1.8" />
       <module name="kodilla-spring-intro_main" target="1.8" />
       <module name="kodilla-spring-intro_test" target="1.8" />
+      <module name="kodilla-spring-web_main" target="1.8" />
+      <module name="kodilla-spring-web_test" target="1.8" />
       <module name="kodilla-spring_main" target="1.8" />
       <module name="kodilla-spring_test" target="1.8" />
       <module name="kodilla-stream_main" target="1.8" />
