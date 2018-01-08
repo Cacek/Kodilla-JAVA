@@ -1,11 +1,9 @@
 package com.kodilla.testing.forum.statistics;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -13,63 +11,30 @@ import static org.mockito.Mockito.when;
 public class StatisticsTestSuite {
 
     @Test
-    public void testCalculateAdvStatisticsZero() {
-        //Given
-        Statistics statisticsMock = mock(Statistics.class);
-                                                            //tu tworzymy obiekt Statistics np.
-                                                            /*//public class JestemMockiem implements Statistics {
-                                                            @Override
-                                                            List<String> usersNames() {
-                                                                return new ArrayList<>();
-                                                            }
-                                                            @Override
-                                                            int postsCount() {
-                                                                return 0;
-                                                            }
-                                                            @Override
-                                                            int commentsCount() {
-                                                                return 0;
-                                                            }
-                                                        }*/
-        when(statisticsMock.usersNames()).thenReturn(new ArrayList<String>());
-        when(statisticsMock.commentsCount()).thenReturn(0);
-        when(statisticsMock.postsCount()).thenReturn(0);
-
-        StatisticsCalculator statisticsCalculator = new StatisticsCalculator(statisticsMock);
-
-        //When
-        when(statisticsMock.usersNames()).thenReturn(new ArrayList<String>());
-        when(statisticsMock.commentsCount()).thenReturn(0);
-        when(statisticsMock.postsCount()).thenReturn(0);
-        statisticsCalculator.calculateAdvStatistics();
-
-        //Then
-         Assert.assertEquals(0,statisticsCalculator.avgCommentsPerPost, 0);
-        Assert.assertEquals(0,statisticsCalculator.avgCommentsPerUser, 0);
-        Assert.assertEquals(0,statisticsCalculator.avgPostsPerUser, 0);
-
-    }
-
-    @Test
     public void testCalculateAdvStatisticsNumbers() {
         //Given
-        Statistics statisticsMock = mock(Statistics.class);
-        when(statisticsMock.usersNames()).thenReturn(new ArrayList<String>());
-        when(statisticsMock.commentsCount()).thenReturn(0);
-        when(statisticsMock.postsCount()).thenReturn(0);
+        Statistics calculateStatisticsMock = mock(Statistics.class);
 
-        StatisticsCalculator statisticsCalculator = new StatisticsCalculator(statisticsMock);
+        ArrayList<String> users = new ArrayList<>();
+        users.add("Jan");
+        users.add("Marian");
+        users.add("Stanislaw");
+        users.add("Ala");
+        users.add("Kot");
 
         //When
-        when(statisticsMock.usersNames()).thenReturn(new ArrayList<String>());
-        when(statisticsMock.commentsCount()).thenReturn(0);
-        when(statisticsMock.postsCount()).thenReturn(0);
-        statisticsCalculator.calculateAdvStatistics();
+        StatisticsCalculator statisticsCalculator = new StatisticsCalculator(calculateStatisticsMock);
+        when(calculateStatisticsMock.usersNames()).thenReturn(users);
+        when(calculateStatisticsMock.postsCount()).thenReturn(1000);
+        when(calculateStatisticsMock.commentsCount()).thenReturn(100);
+
 
         //Then
+        System.out.println(calculateStatisticsMock.usersNames().size());
         Assert.assertEquals(0,statisticsCalculator.avgCommentsPerPost, 0);
         Assert.assertEquals(0,statisticsCalculator.avgCommentsPerUser, 0);
         Assert.assertEquals(0,statisticsCalculator.avgPostsPerUser, 0);
-
+        System.out.println(statisticsCalculator.commentsQty);
+        System.out.println(statisticsCalculator.postsQty);
     }
 }
